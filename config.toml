@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "zh-cn"
+title = "不插电家庭实验"
+theme="buchadian"

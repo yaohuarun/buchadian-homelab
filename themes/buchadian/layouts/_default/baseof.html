@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+	<head>
+    {{ partial "head.html" . }}
+    </head>
+<body>
+    {{ if not .IsPage}}
+    {{ partial "nav.html" . }}
+    {{ end }}
+    <section id="wrapper">
+        {{ block "profile" . }}{{ end }}
+        {{ block "main" . -}}{{- end }}
+
+        {{ partial "footer.html" . }}
+    </section>
+    {{ partial "js.html" . }}
+</body>
+</html>
