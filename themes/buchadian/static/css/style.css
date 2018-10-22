@@ -182,7 +182,7 @@ a,
 }
 
 ul, ol 	{ margin:0; padding:0; margin-bottom: 20px; }
-ul { list-style-type:circle; }
+/* ul { list-style-type:circle; } */
 ol { list-style: decimal; }
 
 
