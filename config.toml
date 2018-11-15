@@ -1,4 +1,4 @@
-baseURL = "http://buchadian.cn/blog"
+baseURL = "http://blog.buchadian.cn"
 languageCode = "zh-cn"
 title = "不插电家庭实验"
 theme="buchadian"
